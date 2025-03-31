@@ -15,8 +15,8 @@ DB_CONFIG = {
 }
 
 # URL сервера авторизации
-AUTH_SERVER_URL = "https://7101-213-232-244-22.ngrok-free.app/generate-token.php"
-WEB_APP_URL = "https://7101-213-232-244-22.ngrok-free.app/auth.php?token="
+AUTH_SERVER_URL = "https://schsystem.store/generate-token.php"
+WEB_APP_URL = "https://schsystem.store/auth.php?token="
 
 # Команда /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
